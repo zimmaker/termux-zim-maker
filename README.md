@@ -1,2 +1,0 @@
-# Termux ZIM Maker
-
