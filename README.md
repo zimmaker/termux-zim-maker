@@ -97,7 +97,7 @@ chmod +x ./make_zim
 Usage:
   make_zim --dir <html_dir> --out <output.zim>
            --title <title> [--desc <desc>] [--lang <lang>]
-´´´
+```
 ## 环境：
 Termux      最新
 libzim      9.8.1 (apt)
