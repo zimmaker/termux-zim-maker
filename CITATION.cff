@@ -4,6 +4,7 @@ title: "Termux ZIM Maker"
 abstract: "Pack local HTML directories into .zim files on bare Termux (Android) without proot, glibc, Python, or Node. Depends on libzim from Termux apt."
 authors:
   - alias: "zimmaker"
+  - alias: "libzim"
 keywords:
   - termux
   - zim
