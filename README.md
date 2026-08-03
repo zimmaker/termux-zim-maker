@@ -89,6 +89,15 @@ cd termux-zim-maker
 ```
 clang++ make_zim.cpp -o make_zim -Ivendor $(pkg-config --cflags --libs libzim) -std=c++17
  ```
+## 运行
+```
+chmod +x ./make_zim
+./make_zim
+#它全输出
+Usage:
+  make_zim --dir <html_dir> --out <output.zim>
+           --title <title> [--desc <desc>] [--lang <lang>]
+´´´
 ## 环境：
 Termux      最新
 libzim      9.8.1 (apt)
