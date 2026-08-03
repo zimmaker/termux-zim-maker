@@ -1,0 +1,4 @@
+make_zim
+*.o
+*.a
+build/
