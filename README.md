@@ -58,7 +58,37 @@ kiwix-search output.zim "关键词"
 ## 已知限制：
 - 将所有文件内容一次性读入内存，超大目录（GB 级）建议改用流式处理
 - 仅支持 Termux（Android）环境
- 
+
+  ## 依赖
+
+编译前需要安装 libzim 开发库和 C++ 编译工具链。
+
+### Termux (Android)
+```
+pkg install clang libc++ libzim
+```
+
+### Alpine Linux
+```
+apk add clang libc++-dev pkgconf libzim-dev zlib-dev icu-dev xz-dev zstd-dev xapian-core-dev
+```
+
+### Debian / Ubuntu
+```
+apt install clang libc++-dev pkg-config libzim-dev
+```
+
+## 构建
+
+```
+git clone https://github.com/zimmaker/termux-zim-maker.git
+cd termux-zim-maker
+./build.sh 
+```
+# 或手动：
+```
+clang++ make_zim.cpp -o make_zim -Ivendor $(pkg-config --cflags --libs libzim) -std=c++17
+ ```
 ## 环境：
 Termux      最新
 libzim      9.8.1 (apt)
