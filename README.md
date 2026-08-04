@@ -57,7 +57,7 @@ kiwix-search output.zim "关键词"
  
 ## 已知限制：
 - 将所有文件内容一次性读入内存，超大目录（GB 级）建议改用流式处理
-- 仅支持 Termux（Android）环境
+- 支持所有Libux环境
 
   ## 依赖
 
