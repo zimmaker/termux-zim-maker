@@ -105,4 +105,4 @@ clang       termux 默认
  
 License: MIT
 
-[helppage](https://help-zimmaker.github.io/)
+[helppage](https://zimmaker.github.io/help/)
