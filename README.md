@@ -104,5 +104,5 @@ kiwix-tools 3.8.2 (apt)
 clang       termux 默认
  
 License: MIT
-具体请浏览https://help.zimmaker.github.io/
-[https://help.zimmaker.github.io/](https://help.zimmaker.github.io/)
+
+[helppage](https://help-zimmaker.github.io/)
