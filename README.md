@@ -1,6 +1,13 @@
 # Termux ZIM Maker
  
 在裸 Termux（无 proot / 无 glibc / 无 Python / 无 Node）环境下，将本地 HTML 文件夹打包成 .zim 文件的工具。
+
+- Language: C++17
+- Crawler: false
+- PythonUsed: false
+- NetworkAccess: false
+- GPG: 2DBE5326AA0C409B9E958C816E443E21F230376B
+
  
 ### 功能：
 - 递归遍历指定目录下的所有文件
