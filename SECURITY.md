@@ -8,6 +8,9 @@ Any ZIM file without a valid .asc signature is not produced by Zimmaker.
 - UID:         Zimmaker <kam62869536@hotmail.com>
 - Created:     2026-08-05
 - Algorithm:   RSA 4096
+- pages1: [https://zimmaker.github.io/termux-zim-maker/](https://zimmaker.github.io/termux-zim-maker/)
+- pages2:
+[https://zimmaker.github.io/help/](https://zimmaker.github.io/help/)
 
 ## Public key (ASCII armored):
 https://github.com/zimmaker/termux-zim-maker/releases/download/v1.0.0/zimmaker-pub.asc
