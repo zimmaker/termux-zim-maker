@@ -66,7 +66,7 @@ kiwix-search output.zim "关键词"
 - 将所有文件内容一次性读入内存，超大目录（GB 级）建议改用流式处理
 - 支持所有Linux环境
 
-  ## 依赖
+## 依赖
 
 编译前需要安装 libzim 开发库和 C++ 编译工具链。
 
@@ -84,9 +84,6 @@ apk add clang libc++-dev pkgconf libzim-dev zlib-dev icu-dev xz-dev zstd-dev xap
 ```
 apt install clang libc++-dev pkg-config libzim-dev
 ```
-d
-## help
-[open help](  https://zimmaker.github.io/help/)
 ## 构建
 
 ```
