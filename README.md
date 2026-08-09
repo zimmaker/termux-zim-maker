@@ -109,6 +109,6 @@ Termux/Alpine/Debian/Ubuntu   最新
 libzim      9.8.1 (apt)
 kiwix-tools 3.8.2 (apt)
 clang       termux 默认
-[help](  https://zimmaker.github.io/help/)
 License: MIT
+## [help](https://zimmaker.github.io/help/)
 
