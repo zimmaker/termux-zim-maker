@@ -72,7 +72,7 @@ kiwix-search output.zim "关键词"
 
 ### Termux (Android)
 ```
-pkg install clang libc++ libzim
+pkg install clang libc++ libzim pkg-config
 ```
 
 ### Alpine Linux
