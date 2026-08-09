@@ -84,7 +84,9 @@ apk add clang libc++-dev pkgconf libzim-dev zlib-dev icu-dev xz-dev zstd-dev xap
 ```
 apt install clang libc++-dev pkg-config libzim-dev
 ```
-
+d
+## help
+[open help](  https://zimmaker.github.io/help/)
 ## 构建
 
 ```
@@ -110,5 +112,4 @@ libzim      9.8.1 (apt)
 kiwix-tools 3.8.2 (apt)
 clang       termux 默认
 License: MIT
-## [help](https://zimmaker.github.io/help/)
 
